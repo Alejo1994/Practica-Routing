@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let libro of libros"> 
+        {{libro.data.Titulo}}  {{libro.data.Autor}}  {{libro.data.Edicion}} 
+         <button (click)="goToBorrarLibro(libro.id)">Borrar</button>
+        <button  (click)="goToEditarLibro(libro.id)"> Editar</button> 
+</li>
+</ul>

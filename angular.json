@@ -117,8 +117,16 @@
               "devServerTarget": "Thursday2611:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "Thursday2611"
+    }
+  },
+  "defaultProject": "Thursday2611",
+  "cli": {
+    "analytics": false
+  }
 }
